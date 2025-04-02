@@ -4,87 +4,123 @@
 
 This project presents an Excel Dashboard for analyzing road accident data from 2021 and 2022. The dashboard provides key insights into accident severity, casualties by vehicle type, road conditions, and monthly trends. It helps in understanding accident patterns and making data-driven decisions.
 
-## 📂 Dataset
 
-### The dataset used for this analysis contains information on:
+## 📊 Dataset Information
 
-Total casualties
+Source: YouTube road accident dataset
 
-Accident severity (Fatal, Serious, Slight)
+Years Covered: 2021 & 2022
 
-Vehicle types involved
+### Key Data Fields:
 
-Road surface conditions
+Accident Date
 
-Monthly casualty trends
+Vehicle Type
 
-Location-wise and time-based accident patterns
+Road Type
 
-## 🛠 Data Cleaning & Preprocessing
+Light Condition (Day/Night)
 
-### Before building the dashboard, the following steps were taken for data cleaning:
+Surface Condition (Dry/Wet/Snow)
 
-Removing Duplicates – Ensuring unique accident records.
+Casualties Count (Fatal, Serious, Slight)
 
-Handling Missing Values – Filling gaps in accident severity or vehicle types.
+Location Details
 
-Standardizing Data – Converting text fields into structured categories.
 
-Adding Calculated Fields – Deriving additional insights like casualty percentages.
+## 🛠️ Data Cleaning & Preprocessing
 
-Sorting & Filtering – Organizing data for better visualization.
+### Before building the dashboard, we cleaned the dataset using the following steps:
 
-## 📊 Key Performance Indicators (KPIs)
+Handled Missing Values: Removed or imputed missing accident records.
 
-### The dashboard focuses on the following KPIs:
+Standardized Data Formats: Ensured consistency in date, vehicle type, and surface conditions.
 
-Total Casualties – Overall count of casualties from accidents in 2021 and 2022.
+Created Derived Columns:
 
-Casualties by Severity – Fatal, serious, and slight casualties with percentage distribution.
+Extracted month & year for trend analysis.
 
-Casualties by Vehicle Type – Identifying vehicle types responsible for the most casualties.
+Categorized casualties into severity levels.
 
-Monthly Casualties by Road Type – Understanding accident trends based on road types.
+Filtered Outliers: Removed anomalies in casualty counts and locations.
 
-Casualties Trend Analysis – Monthly comparison between 2021 and 2022.
 
-Casualties by Road Surface Condition – Distribution based on dry, wet, or snowy roads.
+## 📈 Key Performance Indicators (KPIs)
 
-Casualties by Location & Light Condition – Examining accidents in urban/rural areas and during day/night.
+Total Casualties Happened After the Accident
 
-## 🏗 Steps to Create the Excel Dashboard
+Total Casualties & Percentage by Accident Severity and Vehicle Type
 
-Load the dataset into Excel.
+Total Casualties by Vehicle Type
 
-Clean the data using filters and conditional formatting.
+Monthly Casualties by Road Type
 
-Create pivot tables for each KPI.
+Comparison of Monthly Casualties (Current Year vs. Previous Year)
 
-Design visual elements such as bar charts, pie charts, and trend lines.
+Distribution of Casualties by Road Surface Condition
 
-Use slicers and filters to make the dashboard interactive.
+Relationship Between Casualties by Location (Urban/Rural) and Light Condition (Day/Night)
 
-Format the dashboard for a clean and professional look.
 
-## 🎯 Insights from the Dashboard
+## 🎯 Steps to Create the Excel Dashboard
 
-Most casualties occur in urban areas.
+### 1️⃣ Data Preparation in Excel
 
-Fatal and serious accidents are more common on certain road types.
+Load the dataset into an Excel sheet.
 
-Casualties increase during night-time and bad weather conditions.
+Apply data cleaning steps (as mentioned above).
 
-Specific vehicle types are involved in the highest number of accidents.
+Use formulas to calculate totals and percentages for key metrics.
 
-## 📥 Usage Instructions
+### 2️⃣ Pivot Tables for KPI Calculation
 
-Open the Excel file with the dataset and dashboard.
+Create pivot tables for different categories:
 
-Use filters and slicers to interact with the data.
+Casualties by Severity (Fatal, Serious, Slight)
 
-Analyze trends using the pre-built graphs and pivot tables.
+Casualties by Vehicle Type
 
-## 📝 Conclusion
+Casualties by Month & Road Type
 
-This Excel Dashboard helps visualize accident data effectively, allowing users to understand accident severity, trends, and factors contributing to casualties. It is useful for traffic analysts, policy makers, and researchers to improve road safety.
+Casualties by Surface Condition
+
+Casualties by Location & Light Condition
+
+Add calculated fields where needed.
+
+### 3️⃣ Build the Dashboard
+
+Insert charts based on pivot tables:
+
+Pie Charts: Severity-wise casualties, location-wise distribution.
+
+Line Chart: Monthly casualties trend (2021 vs. 2022).
+
+Bar Charts: Casualties by road type & surface condition.
+
+Slicer Filters: For dynamic selection by year, severity, vehicle type, etc.
+
+Format the dashboard with colors, labels, and layout for easy interpretation.
+
+
+## 🎥 Project Demo & Dashboard Preview
+
+![Road Accident Excel Dashboard Img](https://github.com/user-attachments/assets/d5495067-0543-4b38-a5be-4e806607949c)
+
+
+## 📥 How to Use the Dashboard
+
+Download the Excel file from the repository.
+
+Enable Macros & Pivot Table Refresh if required.
+
+Use slicers & filters to analyze different aspects of the accidents.
+
+Customize Charts to add additional insights.
+
+## 🚀 Conclusion
+
+This Road Accident Analysis Dashboard provides key insights into accident trends, severity levels, and contributing factors. The visual representation helps in identifying patterns, improving road safety measures, and making data-driven decisions.
+
+
 
